@@ -1,0 +1,26 @@
+.carousel{
+    overflow:hidden;
+}
+.inner{
+    white-space:nowrap;
+    transition: transform 0.3s;
+}
+.couresel-item{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: rgb(7, 8, 8);  
+}
+
+.indicator{
+display: flex;
+justify-content: center;
+}
+.indicator button{
+    margin: 5px;
+}
+.indicator button.active{
+    background-color: coral;
+    color: aliceblue;
+}
